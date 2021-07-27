@@ -1,0 +1,52 @@
+body{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	font: sans-serif;
+}
+.mainbox{
+	height: 400px;
+	width: 400px;
+	background-color: rgba(227, 63, 63, 1.0);
+	border-radius: 10px;
+	text-align: left;
+	box-shadow: 0 16px 16px rgba(0, 0, 0, 0.5);
+	padding: 20px 0;
+}
+.bigcircle{
+	height: 150px;
+	width: 150px;
+	margin: auto;
+	position: relative;
+}
+.smallcircle{
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	top: -5px;
+	left: -5px;
+	background-image: url("profile-image.jpg");
+	background-position: center;
+	background-size: cover;
+	border-radius: 50px;
+}
+.form{
+	padding-top: 50px;
+	padding-left: 30px;
+	color: rgba(114, 11, 121, 1.0);
+}
+#ip2
+{
+	border-radius: 5px;
+	border: 2px solid;
+	background: rgba(175, 160, 38, 1.0);
+	box-shadow: 0 8px 8px rgba(0, 0, 0, 1.0);
+}
+.ip1{
+	padding-left: 125px;
+	color: rgba(67, 226, 56, 1.0);
+}
